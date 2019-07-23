@@ -1,0 +1,7 @@
+PROJECT(ctad)
+
+CMAKE_MINIMUM_REQUIRED(VERSION 3.5)
+
+ADD_DEFINITIONS(-std=c++17)
+
+ADD_EXECUTABLE(ctad src/ctad.cpp)
